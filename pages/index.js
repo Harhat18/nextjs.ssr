@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 const Home = () => (
   <div>
-    <Navbar /> &nbsp home page
+    <Navbar /> home page
   </div>
 );
 
