@@ -1,8 +1,8 @@
-import Navbar from "../components/Navbar";
+import Layout from "../components/Layout";
 const Home = () => (
-  <div>
-    <Navbar /> home page
-  </div>
+  <Layout>
+    <div>home page</div>
+  </Layout>
 );
 
 export default Home;

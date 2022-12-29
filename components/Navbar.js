@@ -1,11 +1,11 @@
 import Link from "next/link";
 const Navbar = () => (
   <div>
-    <Link href="/">
+    <Link href="/" as="Giriş">
       <a>Home</a>
     </Link>
     &nbsp;
-    <Link href="/users">
+    <Link href="/users" as="Kullanicilar">
       <a>Users</a>
     </Link>
   </div>
